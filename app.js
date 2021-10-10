@@ -1,5 +1,6 @@
 
 var express = require('express')
+var serverless = require('serverless-http')
 var app = express()
 
 app.set('view engine', 'ejs')
@@ -35,4 +36,4 @@ app.get('/', function(req, res) {
 }
 )})
 
-app.listen(3000)
+module.exports.handler = serverless(app)
