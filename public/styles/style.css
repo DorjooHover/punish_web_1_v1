@@ -1,0 +1,33 @@
+@import url(_navbar.css);
+@import url(_header.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap');
+@import url(_second.css);
+@import url(_third.css);
+@import url(_fourth.css);
+@import url(_fifth.css);
+@import url(_payment.css);
+@import url(_footer.css);
+@import url(media.css);
+:root {
+    --swiper-navigation-size: 24px !important;
+    --swiper-theme-color: #fff !important;
+    --span-color:#fc5b3f;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    overflow-x: hidden;
+}
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+}
+h1, h2, h3, h4, h5,p {
+    padding: 0;
+    margin: 0;
+}

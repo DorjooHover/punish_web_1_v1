@@ -1,0 +1,59 @@
+#payment {
+    
+    background: #f8f8f8;
+}
+#payment .container {
+    background-image:url('../img/payment/bg.png') ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+#payment .container h4 {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.payment_center {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1rem 0;
+}
+.img_container {
+    padding: 0.5rem 2rem ;
+}
+.img_container img {
+    max-width: 90px;
+}
+.payment_bottom {
+    
+    padding: 14px 7px 16px 14px;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+    font-size: .764rem;
+    line-height: 1.5;
+    color: #717070;
+}
+.payment_bottom span {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.payment_bottom a {
+    padding: 0 15px;
+    line-height: 32px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fc4626;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.payment_bottom a i {
+    margin-left: 5px;
+}

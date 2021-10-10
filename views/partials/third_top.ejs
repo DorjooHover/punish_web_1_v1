@@ -1,0 +1,14 @@
+<% third_top_data.forEach(function(data) { %>
+<div class="third_top_area">
+    <div class="third_top_img">
+        <img src="<%= data.image_path %>" alt="">
+    </div>
+    <div class="third_top_area_text">
+        <h2><%= data.title%></h2>
+        <p><%= data.text%></p>
+        <button>learn more
+            <i class="fas fa-long-arrow-alt-right "></i>
+        </button>
+    </div>
+</div>
+<% }) %>

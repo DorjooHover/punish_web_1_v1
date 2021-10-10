@@ -1,0 +1,10 @@
+<% header_datas.forEach(function(data) { %>
+<div class="swiper-slide">
+    <div class="header_text">
+        <h1><%=data.header_title%><br><%= data.header_title_last%></h1>
+        <p><%= data.header_paragraph %></p>
+        <button class='btn'>dicover accounts</button>
+    </div>
+    <img src="<%= data.image_path %>" alt="">
+</div>
+<% }) %>

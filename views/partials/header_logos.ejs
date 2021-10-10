@@ -1,0 +1,8 @@
+<% logo_datas.forEach(function(logo_data) { %>
+    <div class="header_icon">
+        <img src='<%= logo_data.image_path%>' alt="">
+        <span class="<%= logo_data.direction%>">
+            <i class="fas fa-caret-<%= logo_data.direction%>"></i><%= logo_data.price %>
+        </span>
+    </div>
+<% }) %>
