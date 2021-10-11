@@ -12,6 +12,10 @@
     color: #fff;
     font-weight: 700;
 }
+.footer_bottom_top img {
+    max-width: 80px;
+    width: 100%;
+}
 .footer_top_area p {
     font-size: 14px;
     margin-left: 20px;
